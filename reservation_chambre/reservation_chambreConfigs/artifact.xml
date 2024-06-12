@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="ClientsAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ClientsAPI.xml</file>
+    </artifact>
+    <artifact name="ClientsAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ClientsAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="ClientsAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ClientsAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="ChambresAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ChambresAPI.xml</file>
+    </artifact>
+    <artifact name="ChambresAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ChambresAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="ChambresAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ChambresAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="ReservationsAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ReservationsAPI.xml</file>
+    </artifact>
+    <artifact name="ReservationsAPI_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ReservationsAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="ReservationsAPI_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ReservationsAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="chambreEP_ajout" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/chambreEP_ajout.xml</file>
+    </artifact>
+    <artifact name="chambreEP_liste" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/chambreEP_liste.xml</file>
+    </artifact>
+    <artifact name="chambreEP_supprimer" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/chambreEP_supprimer.xml</file>
+    </artifact>
+    <artifact name="chambreEP_update" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/chambreEP_update.xml</file>
+    </artifact>
+    <artifact name="clientEP_ajout" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/clientEP_ajout.xml</file>
+    </artifact>
+    <artifact name="clientEP_supprimer" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/clientEP_supprimer.xml</file>
+    </artifact>
+    <artifact name="clientEP_update" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/clientEP_update.xml</file>
+    </artifact>
+    <artifact name="clientEP_liste" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/clientEP_liste.xml</file>
+    </artifact>
+    <artifact name="reservationEP_liste" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/reservationEP_liste.xml</file>
+    </artifact>
+    <artifact name="reservationEP_ajout" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/reservationEP_ajout.xml</file>
+    </artifact>
+    <artifact name="reservationEP_update" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/reservationEP_update.xml</file>
+    </artifact>
+    <artifact name="reservationEP_supprimer" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/reservationEP_supprimer.xml</file>
+    </artifact>
+</artifacts>

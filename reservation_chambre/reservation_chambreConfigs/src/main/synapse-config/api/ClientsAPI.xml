@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/clients" name="ClientsAPI" publishSwagger="/swagger/clients.yaml" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log level="full"/>
+            <call/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/">
+        <inSequence>
+            <log level="full"/>
+            <payloadFactory media-type="json">
+                <format>
+                    {
+                        "nomCli": "$1",
+                        "prenomCli": "$2",
+                        "adresseCli": "$3",
+                        "mailCli": "$4",
+                        "telCli": "$5"
+                    }
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="$ctx:nomCli"/>
+                    <arg evaluator="xml" expression="$ctx:prenomCli"/>
+                    <arg evaluator="xml" expression="$ctx:adresseCli"/>
+                    <arg evaluator="xml" expression="$ctx:mailCli"/>
+                    <arg evaluator="xml" expression="$ctx:telCli"/>
+                </args>
+            </payloadFactory>
+            <call/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/{numeroCli}">
+        <inSequence>
+            <!--This is generated API skeleton.-->
+            <property expression="get-property('uri.var.numeroCli')" name="numeroCli" scope="default" type="STRING"/>
+            <!--Business Logic Goes Here-->
+            <payloadFactory media-type="json">
+                <format>{"Response" : "Sample Response"}</format>
+                <args/>
+            </payloadFactory>
+            <loopback/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" uri-template="/{numeroCli}">
+        <inSequence>
+            <!--This is generated API skeleton.-->
+            <property expression="get-property('uri.var.numeroCli')" name="numeroCli" scope="default" type="STRING"/>
+            <!--Business Logic Goes Here-->
+            <payloadFactory media-type="json">
+                <format>{"Response" : "Sample Response"}</format>
+                <args/>
+            </payloadFactory>
+            <loopback/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/{numeroCli}">
+        <inSequence>
+            <!--This is generated API skeleton.-->
+            <property expression="get-property('uri.var.numeroCli')" name="numeroCli" scope="default" type="STRING"/>
+            <!--Business Logic Goes Here-->
+            <payloadFactory media-type="json">
+                <format>{"Response" : "Sample Response"}</format>
+                <args/>
+            </payloadFactory>
+            <loopback/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,13 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Gestion des réservations de chambres API",
+        "description": "API pour gérer les clients, les réservations et les chambres d'un hôtel"
+    },
+    "basePath": "/",
+    "schemes": [
+        "http"
+    ],
+    "paths": {}
+}
